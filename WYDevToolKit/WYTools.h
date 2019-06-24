@@ -93,7 +93,39 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)rotateViewEnd:(UIView *)view;
 
+//MARK: date相关
 
+/**
+ 获取当前时间
+
+ @param format dateformat
+ @return format后的时间字符串
+ */
++ (NSString *)getNowDateWithFormat:(NSString *)format;
+
+/**
+ 获取当前时间 默认:yyyy-MM-dd HH:mm:ss
+
+ @return yyyy-MM-dd HH:mm:ss
+ */
++ (NSString *)getNowDate;
+
+
+/**
+ 随机字符串
+
+ @param count 字符串长度
+ @return NSString
+ */
++ (NSString *)randomStr:(int)count;
+
+
+/**
+ 随机字符串 时间+随机4个字符
+
+ @return NSString
+ */
++ (NSString *)randomNameWithDate;
 
 
 @end

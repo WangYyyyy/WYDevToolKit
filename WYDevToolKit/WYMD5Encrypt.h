@@ -1,5 +1,5 @@
 //
-//  MD5Encrypt.h
+//  WYMD5Encrypt.h
 //  PomegranateCenter
 //
 //  Created by wangyu on 2018/10/20.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface MD5Encrypt : NSObject
+@interface WYMD5Encrypt : NSObject
 // MD5加密
 /*
  *由于MD5加密是不可逆的,多用来进行验证

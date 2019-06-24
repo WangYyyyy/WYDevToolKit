@@ -10,7 +10,7 @@
 #define WYDevToolKit_h
 
 #import "WYTools.h"
-#import "MD5Encrypt.h"
+#import "WYMD5Encrypt.h"
 
 #import "WYStringChecker.h"
 

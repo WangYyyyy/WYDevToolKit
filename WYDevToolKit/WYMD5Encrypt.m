@@ -1,15 +1,15 @@
 //
-//  MD5Encrypt.m
+//  WYMD5Encrypt.m
 //  PomegranateCenter
 //
 //  Created by wangyu on 2018/10/20.
 //  Copyright © 2018 mcbn. All rights reserved.
 //
 
-#import "MD5Encrypt.h"
+#import "WYMD5Encrypt.h"
 #import <CommonCrypto/CommonDigest.h>
 
-@implementation MD5Encrypt
+@implementation WYMD5Encrypt
 #pragma mark - 32位 小写
 +(NSString *)MD5ForLower32Bate:(NSString *)str{
     

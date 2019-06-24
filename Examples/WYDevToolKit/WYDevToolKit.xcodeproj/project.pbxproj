@@ -16,13 +16,15 @@
 		88E1A1CD22C072DF0054DB7B /* WYDevToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1CC22C072DF0054DB7B /* WYDevToolKitTests.m */; };
 		88E1A1D822C072DF0054DB7B /* WYDevToolKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1D722C072DF0054DB7B /* WYDevToolKitUITests.m */; };
 		88E1A1F222C077320054DB7B /* WYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1EF22C077320054DB7B /* WYTools.m */; };
-		88E1A1F622C07F010054DB7B /* MD5Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1F522C07F010054DB7B /* MD5Encrypt.m */; };
+		88E1A1F622C07F010054DB7B /* WYMD5Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1F522C07F010054DB7B /* WYMD5Encrypt.m */; };
 		88E1A20822C0A2E50054DB7B /* WYStringChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A20722C0A2E50054DB7B /* WYStringChecker.m */; };
 		88E1A20B22C0A3500054DB7B /* NSArray+WYArrayExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A20A22C0A3500054DB7B /* NSArray+WYArrayExt.m */; };
 		88E1A20E22C0A37A0054DB7B /* UIImage+WYImageExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A20D22C0A37A0054DB7B /* UIImage+WYImageExt.m */; };
 		88E1A21122C0A3A20054DB7B /* UILabel+WYLabelExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A21022C0A3A20054DB7B /* UILabel+WYLabelExt.m */; };
 		88E1A21422C0A3C90054DB7B /* UITableView+WYTableViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A21322C0A3C90054DB7B /* UITableView+WYTableViewExt.m */; };
 		88E1A21722C0A40F0054DB7B /* UITextField+WYTextFieldExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A21622C0A40F0054DB7B /* UITextField+WYTextFieldExt.m */; };
+		88E1A25E22C0C1300054DB7B /* WYLogExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A25D22C0C1300054DB7B /* WYLogExt.m */; };
+		88E1A26122C0C50C0054DB7B /* UIViewController+WYViewControllerExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A26022C0C50C0054DB7B /* UIViewController+WYViewControllerExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +65,8 @@
 		88E1A1F022C077320054DB7B /* WYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTools.h; sourceTree = "<group>"; };
 		88E1A1F122C077320054DB7B /* WYDevToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYDevToolKit.h; sourceTree = "<group>"; };
 		88E1A1F322C077810054DB7B /* WYCommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCommonMacros.h; sourceTree = "<group>"; };
-		88E1A1F422C07F010054DB7B /* MD5Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encrypt.h; sourceTree = "<group>"; };
-		88E1A1F522C07F010054DB7B /* MD5Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encrypt.m; sourceTree = "<group>"; };
+		88E1A1F422C07F010054DB7B /* WYMD5Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMD5Encrypt.h; sourceTree = "<group>"; };
+		88E1A1F522C07F010054DB7B /* WYMD5Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMD5Encrypt.m; sourceTree = "<group>"; };
 		88E1A20622C0A2E50054DB7B /* WYStringChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYStringChecker.h; sourceTree = "<group>"; };
 		88E1A20722C0A2E50054DB7B /* WYStringChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYStringChecker.m; sourceTree = "<group>"; };
 		88E1A20922C0A3500054DB7B /* NSArray+WYArrayExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+WYArrayExt.h"; sourceTree = "<group>"; };
@@ -77,6 +79,10 @@
 		88E1A21322C0A3C90054DB7B /* UITableView+WYTableViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WYTableViewExt.m"; sourceTree = "<group>"; };
 		88E1A21522C0A40F0054DB7B /* UITextField+WYTextFieldExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+WYTextFieldExt.h"; sourceTree = "<group>"; };
 		88E1A21622C0A40F0054DB7B /* UITextField+WYTextFieldExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WYTextFieldExt.m"; sourceTree = "<group>"; };
+		88E1A25C22C0C1300054DB7B /* WYLogExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYLogExt.h; sourceTree = "<group>"; };
+		88E1A25D22C0C1300054DB7B /* WYLogExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYLogExt.m; sourceTree = "<group>"; };
+		88E1A25F22C0C50C0054DB7B /* UIViewController+WYViewControllerExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WYViewControllerExt.h"; sourceTree = "<group>"; };
+		88E1A26022C0C50C0054DB7B /* UIViewController+WYViewControllerExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WYViewControllerExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,8 +172,8 @@
 				88E1A1F022C077320054DB7B /* WYTools.h */,
 				88E1A1EF22C077320054DB7B /* WYTools.m */,
 				88E1A1F322C077810054DB7B /* WYCommonMacros.h */,
-				88E1A1F422C07F010054DB7B /* MD5Encrypt.h */,
-				88E1A1F522C07F010054DB7B /* MD5Encrypt.m */,
+				88E1A1F422C07F010054DB7B /* WYMD5Encrypt.h */,
+				88E1A1F522C07F010054DB7B /* WYMD5Encrypt.m */,
 				88E1A20622C0A2E50054DB7B /* WYStringChecker.h */,
 				88E1A20722C0A2E50054DB7B /* WYStringChecker.m */,
 				88E1A20922C0A3500054DB7B /* NSArray+WYArrayExt.h */,
@@ -180,6 +186,10 @@
 				88E1A21322C0A3C90054DB7B /* UITableView+WYTableViewExt.m */,
 				88E1A21522C0A40F0054DB7B /* UITextField+WYTextFieldExt.h */,
 				88E1A21622C0A40F0054DB7B /* UITextField+WYTextFieldExt.m */,
+				88E1A25F22C0C50C0054DB7B /* UIViewController+WYViewControllerExt.h */,
+				88E1A26022C0C50C0054DB7B /* UIViewController+WYViewControllerExt.m */,
+				88E1A25C22C0C1300054DB7B /* WYLogExt.h */,
+				88E1A25D22C0C1300054DB7B /* WYLogExt.m */,
 			);
 			name = WYDevToolKit;
 			path = ../../../WYDevToolKit;
@@ -322,10 +332,12 @@
 				88E1A20822C0A2E50054DB7B /* WYStringChecker.m in Sources */,
 				88E1A21122C0A3A20054DB7B /* UILabel+WYLabelExt.m in Sources */,
 				88E1A1C322C072DF0054DB7B /* main.m in Sources */,
+				88E1A25E22C0C1300054DB7B /* WYLogExt.m in Sources */,
+				88E1A26122C0C50C0054DB7B /* UIViewController+WYViewControllerExt.m in Sources */,
 				88E1A20B22C0A3500054DB7B /* NSArray+WYArrayExt.m in Sources */,
 				88E1A20E22C0A37A0054DB7B /* UIImage+WYImageExt.m in Sources */,
 				88E1A1B522C072DE0054DB7B /* AppDelegate.m in Sources */,
-				88E1A1F622C07F010054DB7B /* MD5Encrypt.m in Sources */,
+				88E1A1F622C07F010054DB7B /* WYMD5Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

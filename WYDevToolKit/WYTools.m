@@ -157,4 +157,44 @@
     [view.layer removeAllAnimations];
 }
 
+//MARK: date相关
++ (NSString *)getNowDateWithFormat:(NSString *)format {
+    NSDate *date = [NSDate date];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:format];
+    NSString *dateStr = [formatter stringFromDate:date];
+    return dateStr;
+}
+
++ (NSString *)getNowDate {
+    return [self getNowDateWithFormat:@"yyyy-MM-dd HH:mm:ss"];
+}
+
++ (NSString *)randomStr:(int)count {
+    
+    NSString *string = [[NSString alloc]init];
+    for (int i = 0; i < count; i++) {
+        int number = arc4random() % 36;
+        if (number < 10) {
+            int figure = arc4random() % 10;
+            NSString *tempString = [NSString stringWithFormat:@"%d", figure];
+            string = [string stringByAppendingString:tempString];
+        }else {
+            int figure = (arc4random() % 26) + 97;
+            char character = figure;
+            NSString *tempString = [NSString stringWithFormat:@"%c", character];
+            string = [string stringByAppendingString:tempString];
+        }
+    }
+    return string;
+}
+
++ (NSString *)randomNameWithDate {
+    NSString *result;
+    NSString *timeSp = [NSString stringWithFormat:@"%lf", [[NSDate date] timeIntervalSince1970] * 1000];
+    NSString *randomStr = [self randomStr:4];
+    result = [NSString stringWithFormat:@"%@%@", timeSp, randomStr];
+    return result;
+}
+
 @end

@@ -21,6 +21,12 @@
     UIImage *i = UIImageNamed(danshengou);
     NSLog(@"%@",i);
     
+    NSDictionary *dict = @{
+                           @"名字" : @"杰克",
+                           @"年龄" : @20,
+                           };
+    NSLog(@"%@", dict);
+    
     
     // Do any additional setup after loading the view.
 }

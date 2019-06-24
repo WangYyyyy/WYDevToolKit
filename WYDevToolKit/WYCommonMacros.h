@@ -17,7 +17,7 @@
 #define TABBAR_HEIGHT       (IPHONEX ? 83.f : 49.f)
 #define SAFE_TOP_MARGIN     (IPHONEX ? 24.f : 0.f)
 #define SAFE_BOTTOM_MARGIN  (IPHONEX ? 34.f : 0.f)
-#define STATUSBAR_HEIGHT  (IPHONEX ? 44.f : 20.f)
+#define STATUSBAR_HEIGHT    (IPHONEX ? 44.f : 20.f)
 
 //MARK: 系统相关
 #define KEY_WINDOW      [UIApplication sharedApplication].keyWindow
@@ -34,16 +34,22 @@
 #define IPHONEX         (SCREEN_HEIGHT == 812 || SCREEN_HEIGHT == 896)
 
 //MARK: fonts
-#define FONT(x) iOS9?[UIFont fontWithName:@"PingFangSC-Regular" size:x]:[UIFont systemFontOfSize:x]
-#define FONT_BOLD(x) iOS9?[UIFont fontWithName:@"PingFangSC-Semibold" size:x]:[UIFont boldSystemFontOfSize:x]
+#define FONT(x)         iOS9?[UIFont fontWithName:@"PingFangSC-Regular" size:x]:[UIFont systemFontOfSize:x]
+#define FONT_BOLD(x)    iOS9?[UIFont fontWithName:@"PingFangSC-Semibold" size:x]:[UIFont boldSystemFontOfSize:x]
 
 //MARK: colors
-#define RANDOM_COLOR RGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define RANDOM_COLOR        RGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+#define CLEAR_COLOR         [UIColor clearColor]
+#define COLOR_FFF           [UIColor whiteColor]
+#define COLOR_000           [UIColor blackColor]
 
-#define RGB(r, g, b) RGBA(r, g, b, 1)
-#define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
-#define RGB_HEX(rgbValue) RGBA_HEX(rgbValue, 1.0)
-#define RGBA_HEX(rgbValue, a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
+#define RGB(r, g, b)            RGBA(r, g, b, 1)
+#define RGBA(r, g, b, a)        [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
+#define RGB_HEX(rgbValue)       RGBA_HEX(rgbValue, 1.0)
+#define RGBA_HEX(rgbValue, a)   [UIColor \
+                                colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+                                green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+                                blue:((float)(rgbValue & 0xFF))/255.0 alpha:a]
 
 //MARK:logs
 #ifdef DEBUG
@@ -56,10 +62,10 @@
 #define UIColorHex(_hex_)           [UIColor colorWithHexString:((__bridge NSString *)CFSTR(#_hex_))]
 #define UIImageNamed(_name_)        [UIImage imageNamed:((__bridge NSString *)CFSTR(#_name_))]
 #define NSURLString(_string_)       [NSURL URLWithString:((__bridge NSString *)CFSTR(#_string_))]
-#define KEY_WINDOW      [UIApplication sharedApplication].keyWindow
-#define USER_DEFAULTS   [NSUserDefaults standardUserDefaults]
-#define APP_DELEGATE    [UIApplication sharedApplication].delegate
-#define DEVICE_UUID     [[[UIDevice currentDevice] identifierForVendor] UUIDString]
+#define KEY_WINDOW                  [UIApplication sharedApplication].keyWindow
+#define USER_DEFAULTS               [NSUserDefaults standardUserDefaults]
+#define APP_DELEGATE                [UIApplication sharedApplication].delegate
+#define DEVICE_UUID                 [[[UIDevice currentDevice] identifierForVendor] UUIDString]
 
 //MARK: border and radius
 #define VIEW_BORDER_RADIUS(View, Radius, Width, Color)\
