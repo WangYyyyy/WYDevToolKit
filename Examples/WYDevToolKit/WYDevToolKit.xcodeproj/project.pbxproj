@@ -15,7 +15,14 @@
 		88E1A1C322C072DF0054DB7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1C222C072DF0054DB7B /* main.m */; };
 		88E1A1CD22C072DF0054DB7B /* WYDevToolKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1CC22C072DF0054DB7B /* WYDevToolKitTests.m */; };
 		88E1A1D822C072DF0054DB7B /* WYDevToolKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1D722C072DF0054DB7B /* WYDevToolKitUITests.m */; };
-		88E1A1E822C073050054DB7B /* WYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1E722C073050054DB7B /* WYTools.m */; };
+		88E1A1F222C077320054DB7B /* WYTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1EF22C077320054DB7B /* WYTools.m */; };
+		88E1A1F622C07F010054DB7B /* MD5Encrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1F522C07F010054DB7B /* MD5Encrypt.m */; };
+		88E1A20822C0A2E50054DB7B /* WYStringChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A20722C0A2E50054DB7B /* WYStringChecker.m */; };
+		88E1A20B22C0A3500054DB7B /* NSArray+WYArrayExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A20A22C0A3500054DB7B /* NSArray+WYArrayExt.m */; };
+		88E1A20E22C0A37A0054DB7B /* UIImage+WYImageExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A20D22C0A37A0054DB7B /* UIImage+WYImageExt.m */; };
+		88E1A21122C0A3A20054DB7B /* UILabel+WYLabelExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A21022C0A3A20054DB7B /* UILabel+WYLabelExt.m */; };
+		88E1A21422C0A3C90054DB7B /* UITableView+WYTableViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A21322C0A3C90054DB7B /* UITableView+WYTableViewExt.m */; };
+		88E1A21722C0A40F0054DB7B /* UITextField+WYTextFieldExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A21622C0A40F0054DB7B /* UITextField+WYTextFieldExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +59,24 @@
 		88E1A1D322C072DF0054DB7B /* WYDevToolKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYDevToolKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E1A1D722C072DF0054DB7B /* WYDevToolKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYDevToolKitUITests.m; sourceTree = "<group>"; };
 		88E1A1D922C072DF0054DB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88E1A1E622C073050054DB7B /* WYTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYTools.h; sourceTree = "<group>"; };
-		88E1A1E722C073050054DB7B /* WYTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYTools.m; sourceTree = "<group>"; };
+		88E1A1EF22C077320054DB7B /* WYTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTools.m; sourceTree = "<group>"; };
+		88E1A1F022C077320054DB7B /* WYTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTools.h; sourceTree = "<group>"; };
+		88E1A1F122C077320054DB7B /* WYDevToolKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYDevToolKit.h; sourceTree = "<group>"; };
+		88E1A1F322C077810054DB7B /* WYCommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCommonMacros.h; sourceTree = "<group>"; };
+		88E1A1F422C07F010054DB7B /* MD5Encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encrypt.h; sourceTree = "<group>"; };
+		88E1A1F522C07F010054DB7B /* MD5Encrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encrypt.m; sourceTree = "<group>"; };
+		88E1A20622C0A2E50054DB7B /* WYStringChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYStringChecker.h; sourceTree = "<group>"; };
+		88E1A20722C0A2E50054DB7B /* WYStringChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYStringChecker.m; sourceTree = "<group>"; };
+		88E1A20922C0A3500054DB7B /* NSArray+WYArrayExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+WYArrayExt.h"; sourceTree = "<group>"; };
+		88E1A20A22C0A3500054DB7B /* NSArray+WYArrayExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WYArrayExt.m"; sourceTree = "<group>"; };
+		88E1A20C22C0A37A0054DB7B /* UIImage+WYImageExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+WYImageExt.h"; sourceTree = "<group>"; };
+		88E1A20D22C0A37A0054DB7B /* UIImage+WYImageExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WYImageExt.m"; sourceTree = "<group>"; };
+		88E1A20F22C0A3A20054DB7B /* UILabel+WYLabelExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WYLabelExt.h"; sourceTree = "<group>"; };
+		88E1A21022C0A3A20054DB7B /* UILabel+WYLabelExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WYLabelExt.m"; sourceTree = "<group>"; };
+		88E1A21222C0A3C90054DB7B /* UITableView+WYTableViewExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+WYTableViewExt.h"; sourceTree = "<group>"; };
+		88E1A21322C0A3C90054DB7B /* UITableView+WYTableViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+WYTableViewExt.m"; sourceTree = "<group>"; };
+		88E1A21522C0A40F0054DB7B /* UITextField+WYTextFieldExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+WYTextFieldExt.h"; sourceTree = "<group>"; };
+		88E1A21622C0A40F0054DB7B /* UITextField+WYTextFieldExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WYTextFieldExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +127,7 @@
 		88E1A1B222C072DE0054DB7B /* WYDevToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				88E1A1E522C072F80054DB7B /* WYDevToolKit */,
+				88E1A1EE22C077320054DB7B /* WYDevToolKit */,
 				88E1A1B322C072DE0054DB7B /* AppDelegate.h */,
 				88E1A1B422C072DE0054DB7B /* AppDelegate.m */,
 				88E1A1B622C072DE0054DB7B /* ViewController.h */,
@@ -136,11 +159,27 @@
 			path = WYDevToolKitUITests;
 			sourceTree = "<group>";
 		};
-		88E1A1E522C072F80054DB7B /* WYDevToolKit */ = {
+		88E1A1EE22C077320054DB7B /* WYDevToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				88E1A1E622C073050054DB7B /* WYTools.h */,
-				88E1A1E722C073050054DB7B /* WYTools.m */,
+				88E1A1F122C077320054DB7B /* WYDevToolKit.h */,
+				88E1A1F022C077320054DB7B /* WYTools.h */,
+				88E1A1EF22C077320054DB7B /* WYTools.m */,
+				88E1A1F322C077810054DB7B /* WYCommonMacros.h */,
+				88E1A1F422C07F010054DB7B /* MD5Encrypt.h */,
+				88E1A1F522C07F010054DB7B /* MD5Encrypt.m */,
+				88E1A20622C0A2E50054DB7B /* WYStringChecker.h */,
+				88E1A20722C0A2E50054DB7B /* WYStringChecker.m */,
+				88E1A20922C0A3500054DB7B /* NSArray+WYArrayExt.h */,
+				88E1A20A22C0A3500054DB7B /* NSArray+WYArrayExt.m */,
+				88E1A20C22C0A37A0054DB7B /* UIImage+WYImageExt.h */,
+				88E1A20D22C0A37A0054DB7B /* UIImage+WYImageExt.m */,
+				88E1A20F22C0A3A20054DB7B /* UILabel+WYLabelExt.h */,
+				88E1A21022C0A3A20054DB7B /* UILabel+WYLabelExt.m */,
+				88E1A21222C0A3C90054DB7B /* UITableView+WYTableViewExt.h */,
+				88E1A21322C0A3C90054DB7B /* UITableView+WYTableViewExt.m */,
+				88E1A21522C0A40F0054DB7B /* UITextField+WYTextFieldExt.h */,
+				88E1A21622C0A40F0054DB7B /* UITextField+WYTextFieldExt.m */,
 			);
 			name = WYDevToolKit;
 			path = ../../../WYDevToolKit;
@@ -277,9 +316,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E1A1B822C072DE0054DB7B /* ViewController.m in Sources */,
-				88E1A1E822C073050054DB7B /* WYTools.m in Sources */,
+				88E1A1F222C077320054DB7B /* WYTools.m in Sources */,
+				88E1A21422C0A3C90054DB7B /* UITableView+WYTableViewExt.m in Sources */,
+				88E1A21722C0A40F0054DB7B /* UITextField+WYTextFieldExt.m in Sources */,
+				88E1A20822C0A2E50054DB7B /* WYStringChecker.m in Sources */,
+				88E1A21122C0A3A20054DB7B /* UILabel+WYLabelExt.m in Sources */,
 				88E1A1C322C072DF0054DB7B /* main.m in Sources */,
+				88E1A20B22C0A3500054DB7B /* NSArray+WYArrayExt.m in Sources */,
+				88E1A20E22C0A37A0054DB7B /* UIImage+WYImageExt.m in Sources */,
 				88E1A1B522C072DE0054DB7B /* AppDelegate.m in Sources */,
+				88E1A1F622C07F010054DB7B /* MD5Encrypt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

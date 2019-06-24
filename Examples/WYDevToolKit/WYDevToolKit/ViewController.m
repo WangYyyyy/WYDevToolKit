@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WYDevToolKit.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIImage *i = UIImageNamed(danshengou);
+    NSLog(@"%@",i);
+    
+    
     // Do any additional setup after loading the view.
 }
 
