@@ -1,8 +1,23 @@
 Pod::Spec.new do |s|
   s.name         = "WYDevToolKitiOS" # 项目名称
-  s.version      = "0.0.1"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "0.0.2"        # 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT"          # 开源证书
   s.summary      = "iOS开发基础工具集成" # 项目简介
+  s.description  = <<-DESC
+  
+  # 使用方法
+```
+pod 'WYDevToolKitiOS'
+```
+```
+$ pod install
+```
+
+直接导入即可
+```
+#import <WYDevToolKitiOS/WYDevToolKit.h>
+```
+                    DESC
  
   s.homepage     = "https://github.com/WangYyyyy/WYDevToolKitiOS" # 你的主页
   s.source       = { :git => "https://github.com/WangYyyyy/WYDevToolKitiOS.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
