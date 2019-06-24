@@ -169,13 +169,16 @@
 			isa = PBXGroup;
 			children = (
 				88E1A1F122C077320054DB7B /* WYDevToolKit.h */,
-				88E1A1F022C077320054DB7B /* WYTools.h */,
-				88E1A1EF22C077320054DB7B /* WYTools.m */,
-				88E1A1F322C077810054DB7B /* WYCommonMacros.h */,
-				88E1A1F422C07F010054DB7B /* WYMD5Encrypt.h */,
-				88E1A1F522C07F010054DB7B /* WYMD5Encrypt.m */,
-				88E1A20622C0A2E50054DB7B /* WYStringChecker.h */,
-				88E1A20722C0A2E50054DB7B /* WYStringChecker.m */,
+				88E1A26322C0C8520054DB7B /* Tools */,
+				88E1A26222C0C80F0054DB7B /* Categories */,
+			);
+			name = WYDevToolKit;
+			path = ../../../WYDevToolKit;
+			sourceTree = "<group>";
+		};
+		88E1A26222C0C80F0054DB7B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
 				88E1A20922C0A3500054DB7B /* NSArray+WYArrayExt.h */,
 				88E1A20A22C0A3500054DB7B /* NSArray+WYArrayExt.m */,
 				88E1A20C22C0A37A0054DB7B /* UIImage+WYImageExt.h */,
@@ -191,8 +194,21 @@
 				88E1A25C22C0C1300054DB7B /* WYLogExt.h */,
 				88E1A25D22C0C1300054DB7B /* WYLogExt.m */,
 			);
-			name = WYDevToolKit;
-			path = ../../../WYDevToolKit;
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		88E1A26322C0C8520054DB7B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				88E1A1F022C077320054DB7B /* WYTools.h */,
+				88E1A1EF22C077320054DB7B /* WYTools.m */,
+				88E1A1F322C077810054DB7B /* WYCommonMacros.h */,
+				88E1A1F422C07F010054DB7B /* WYMD5Encrypt.h */,
+				88E1A1F522C07F010054DB7B /* WYMD5Encrypt.m */,
+				88E1A20622C0A2E50054DB7B /* WYStringChecker.h */,
+				88E1A20722C0A2E50054DB7B /* WYStringChecker.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
