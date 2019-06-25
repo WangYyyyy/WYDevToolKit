@@ -162,4 +162,28 @@ static inline void wy_swizzleSelector(Class class, SEL originalSelector, SEL swi
 
 @end
 
+
+
+#pragma mark - UIViewController分类 跟踪viewWillAppear函数
+
+@implementation UIViewController (WYLogExt)
+
+- (void)wy_tracker_viewWillAppear:(BOOL)animated {
+    NSLog(@"\n🐕 %s\n✳️ Will Appear!", class_getName([self class]));
+}
+
+//在load方法中完成方法交换
++ (void)load {
+    
+    //方法交换
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        
+        Class class = [self class];
+        wy_swizzleSelector(class, @selector(viewWillAppear:), @selector(wy_tracker_viewWillAppear:));
+    });
+}
+
+@end
+
 #endif

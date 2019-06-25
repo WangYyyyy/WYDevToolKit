@@ -42,6 +42,7 @@
 #define CLEAR_COLOR         [UIColor clearColor]
 #define COLOR_FFF           [UIColor whiteColor]
 #define COLOR_000           [UIColor blackColor]
+#define COLOR_333           RGB_HEX(0x333333)
 
 #define RGB(r, g, b)            RGBA(r, g, b, 1)
 #define RGBA(r, g, b, a)        [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
@@ -59,6 +60,8 @@
 #endif
 
 //MARK: short cut
+#define IMAGE(imageName)            [UIImage imageNamed:imageName]
+#define URL(urlString)              [NSURL URLWithString:urlString]
 #define UIColorHex(_hex_)           [UIColor colorWithHexString:((__bridge NSString *)CFSTR(#_hex_))]
 #define UIImageNamed(_name_)        [UIImage imageNamed:((__bridge NSString *)CFSTR(#_name_))]
 #define NSURLString(_string_)       [NSURL URLWithString:((__bridge NSString *)CFSTR(#_string_))]
