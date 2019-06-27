@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883E304922C45298008FC54A /* UIButton+WYButtonExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E304822C45298008FC54A /* UIButton+WYButtonExt.m */; };
 		88E1A1B522C072DE0054DB7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1B422C072DE0054DB7B /* AppDelegate.m */; };
 		88E1A1B822C072DE0054DB7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1B722C072DE0054DB7B /* ViewController.m */; };
 		88E1A1BB22C072DE0054DB7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E1A1B922C072DE0054DB7B /* Main.storyboard */; };
@@ -44,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		883E304722C45298008FC54A /* UIButton+WYButtonExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WYButtonExt.h"; sourceTree = "<group>"; };
+		883E304822C45298008FC54A /* UIButton+WYButtonExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WYButtonExt.m"; sourceTree = "<group>"; };
 		88E1A1B022C072DE0054DB7B /* WYDevToolKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYDevToolKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E1A1B322C072DE0054DB7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88E1A1B422C072DE0054DB7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -188,6 +191,8 @@
 				88E1A21622C0A40F0054DB7B /* UITextField+WYTextFieldExt.m */,
 				88E1A25C22C0C1300054DB7B /* WYLogExt.h */,
 				88E1A25D22C0C1300054DB7B /* WYLogExt.m */,
+				883E304722C45298008FC54A /* UIButton+WYButtonExt.h */,
+				883E304822C45298008FC54A /* UIButton+WYButtonExt.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 				88E1A21122C0A3A20054DB7B /* UILabel+WYLabelExt.m in Sources */,
 				88E1A1C322C072DF0054DB7B /* main.m in Sources */,
 				88E1A25E22C0C1300054DB7B /* WYLogExt.m in Sources */,
+				883E304922C45298008FC54A /* UIButton+WYButtonExt.m in Sources */,
 				88E1A20B22C0A3500054DB7B /* NSArray+WYArrayExt.m in Sources */,
 				88E1A20E22C0A37A0054DB7B /* UIImage+WYImageExt.m in Sources */,
 				88E1A1B522C072DE0054DB7B /* AppDelegate.m in Sources */,
