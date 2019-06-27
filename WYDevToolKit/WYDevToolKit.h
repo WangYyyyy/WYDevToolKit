@@ -20,5 +20,6 @@
 #import "UITableView+WYTableViewExt.h"
 #import "UITextField+WYTextFieldExt.h"
 #import "UIButton+WYButtonExt.h"
+#import "UIColor+WYColorExt.h"
 
 #endif /* WYDevToolKit_h */

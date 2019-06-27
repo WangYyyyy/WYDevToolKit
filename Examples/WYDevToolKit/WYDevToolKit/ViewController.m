@@ -27,6 +27,8 @@
                            };
     NSLog(@"%@", dict);
     
+    UIColorHex(#ffffff);
+    
     
     // Do any additional setup after loading the view.
 }
