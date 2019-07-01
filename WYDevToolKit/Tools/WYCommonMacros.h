@@ -68,6 +68,8 @@
 #define KEY_WINDOW                  [UIApplication sharedApplication].keyWindow
 #define USER_DEFAULTS               [NSUserDefaults standardUserDefaults]
 #define APP_DELEGATE                [UIApplication sharedApplication].delegate
+//required  #import "AppDelegate.h"
+#define APP_DELEGATE_PJ             ((AppDelegate *)[UIApplication sharedApplication].delegate)
 #define DEVICE_UUID                 [[[UIDevice currentDevice] identifierForVendor] UUIDString]
 
 //MARK: border and radius

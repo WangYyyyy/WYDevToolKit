@@ -30,6 +30,8 @@
     UIColorHex(#ffffff);
     
     
+    APP_DELEGATE_PJ;
+    
     // Do any additional setup after loading the view.
 }
 
