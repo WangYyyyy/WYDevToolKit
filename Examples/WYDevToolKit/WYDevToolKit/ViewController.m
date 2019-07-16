@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "WYDevToolKit.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 

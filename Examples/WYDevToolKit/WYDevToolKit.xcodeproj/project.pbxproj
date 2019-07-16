@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883829DD22DDB69F003E6909 /* UIImageView+WYImageViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 883829DC22DDB69F003E6909 /* UIImageView+WYImageViewExt.m */; };
 		883E304922C45298008FC54A /* UIButton+WYButtonExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E304822C45298008FC54A /* UIButton+WYButtonExt.m */; };
 		883E30FE22C4BA89008FC54A /* UIColor+WYColorExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 883E30FD22C4BA89008FC54A /* UIColor+WYColorExt.m */; };
 		88E1A1B522C072DE0054DB7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E1A1B422C072DE0054DB7B /* AppDelegate.m */; };
@@ -46,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		883829DB22DDB69F003E6909 /* UIImageView+WYImageViewExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WYImageViewExt.h"; sourceTree = "<group>"; };
+		883829DC22DDB69F003E6909 /* UIImageView+WYImageViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WYImageViewExt.m"; sourceTree = "<group>"; };
 		883E304722C45298008FC54A /* UIButton+WYButtonExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WYButtonExt.h"; sourceTree = "<group>"; };
 		883E304822C45298008FC54A /* UIButton+WYButtonExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WYButtonExt.m"; sourceTree = "<group>"; };
 		883E30FC22C4BA89008FC54A /* UIColor+WYColorExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+WYColorExt.h"; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 				883E304822C45298008FC54A /* UIButton+WYButtonExt.m */,
 				883E30FC22C4BA89008FC54A /* UIColor+WYColorExt.h */,
 				883E30FD22C4BA89008FC54A /* UIColor+WYColorExt.m */,
+				883829DB22DDB69F003E6909 /* UIImageView+WYImageViewExt.h */,
+				883829DC22DDB69F003E6909 /* UIImageView+WYImageViewExt.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -360,6 +365,7 @@
 				88E1A20E22C0A37A0054DB7B /* UIImage+WYImageExt.m in Sources */,
 				88E1A1B522C072DE0054DB7B /* AppDelegate.m in Sources */,
 				88E1A1F622C07F010054DB7B /* WYMD5Encrypt.m in Sources */,
+				883829DD22DDB69F003E6909 /* UIImageView+WYImageViewExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
